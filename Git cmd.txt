@@ -1,0 +1,5 @@
+git stage .
+
+git commit -m "homework 27/9"
+
+git push
