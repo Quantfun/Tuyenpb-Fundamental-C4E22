@@ -1,5 +1,5 @@
 git stage .
 
-git commit -m "homework 27/9"
+git commit -m "homework"
 
 git push
