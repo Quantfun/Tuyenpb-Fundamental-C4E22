@@ -1,5 +1,0 @@
-git stage .
-
-git commit -m "homework"
-
-git push
