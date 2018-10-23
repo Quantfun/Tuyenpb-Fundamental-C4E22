@@ -1,10 +1,11 @@
-def even_list(list):
-    for i in list[:]:
-        if i % 2 != 0:
-            list.remove(i)
-    print(list)
-    return list
+def even_list(numbers):
+    numberx = []
+    for i in numbers:
+        if i % 2 == 0:
+            numberx.append(i)
+    print(numberx)
+    return numberx
 
-list = [0,1,3,5,9,7,10]
-even_list(list)
+numbers = [0,1,3,5,9,7,10]
+even_list(numbers)
                 
