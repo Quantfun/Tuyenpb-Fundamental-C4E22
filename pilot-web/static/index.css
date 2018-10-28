@@ -1,0 +1,55 @@
+html,body {
+    height: 100%;
+}
+
+*{
+    font-size: 1.1rem
+}
+
+*{
+    border: 1px red dashed;
+}
+
+button {
+    font-size: 1.1rem;
+    /* padding-top: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 4px; */
+    padding: 6px 10px 6px 10px;
+    border-radius: 6px;
+    background-color: rgba(46, 175, 46, 0.89);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#root{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content_wrapper{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#choice_wrapper{
+    width: 33.33%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+
+}
+
+.input_choice{
+    width: 50%;
+    border-radius: 3px;
+    margin-bottom: 8px;
+
+}

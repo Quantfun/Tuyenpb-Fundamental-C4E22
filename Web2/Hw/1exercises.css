@@ -1,0 +1,111 @@
+/* 1. Set the height of <h1> to "100px". */
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+    background-color: lightblue;
+    height:100px;
+    width: 100%;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+
+/* 2. Set the left margin of <h1> to "20px". */
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+    background-color: lightblue;
+    margin-left:20px;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+
+/* 3. Set the top padding of <p> to "30px". */
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+    background-color: lightblue;
+    padding-top:30px;
+    
+}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+
+/* 4. Set the background color for the page to "linen" and the background color for <h1> to "lightblue". */
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	background-color:linen;
+    }
+
+h1 {
+	background-color:lightblue;
+    }
+
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+</body>
+</html>
+
+
+/* 5. Set the opacity for the background color of the <h1> element to "0.3" by using a RGBA color instead of RGB. */
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+   background-color: rgba(0,255,0,0.3);
+}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+</body>
+</html>
+
